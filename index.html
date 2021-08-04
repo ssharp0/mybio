@@ -1,22 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Document</title>
+
+<style>
+
+body {
+ background: chocolate;
+}
+
+ h1 {
+  color: pink;
+  border: brown dashed;
+  background-color: purple;
+ }
+
+ .list {
+ font-family: fantasy;
+ color: cyan;
+ list-style: circle;
+ background-color: crimson;
+ background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Spring_rolls_on_sale.jpg/250px-Spring_rolls_on_sale.jpg");
+}
 
 
+
+#camping {
+ border: brown dashed;
+ border-radius: 50%;
+ opacity: 0.5;
+}
+
+
+#link {
+ border: solid black;
+ margin: 120px;
+}
+
+</style>
+
+
+</head>
+<body>
+ 
 <h1>Hi!</h1>
 <h3>My name is Scott</h3>
 
-<p style="color: blue">I love to hike and be outside, as well as travel!</p>
+<p>I love to hike and be outside, as well as travel!</p>
 
 <!-- break tag -->
 <br>
 
 <!-- # image tag -->
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Tent_camping_along_the_Sulayr_trail_in_La_Taha%2C_Sierra_Nevada_National_Park_%28DSCF5147%29.jpg/220px-Tent_camping_along_the_Sulayr_trail_in_La_Taha%2C_Sierra_Nevada_National_Park_%28DSCF5147%29.jpg" alt="oops! image not found">
+<img id="camping"
+ src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Tent_camping_along_the_Sulayr_trail_in_La_Taha%2C_Sierra_Nevada_National_Park_%28DSCF5147%29.jpg/220px-Tent_camping_along_the_Sulayr_trail_in_La_Taha%2C_Sierra_Nevada_National_Park_%28DSCF5147%29.jpg"
+ alt="oops! image not found">
 
 <!-- #break tag -->
 <br>
 <br>
 
 <!-- #anchor tag for links -->
-<a href="https://www.google.com/">Click here to go to google search homepage!</a>
+<a id="link" href="https://www.google.com/">Click here to go to google search homepage!</a>
 
 <!-- #break tag -->
 <br>
@@ -26,7 +74,12 @@
 <p><i>In no particular order...</i></p>
 
 <!-- #unordered list -->
-<ul>
+<ul class="list">
  <li>Pizza</li>
  <li>Springrolls</li>
 </ul>
+
+</body>
+</html>
+
+
