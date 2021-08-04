@@ -1,0 +1,28 @@
+body {
+ background: chocolate;
+}
+
+h1 {
+ color: pink;
+ border: brown dashed;
+ background-color: purple;
+}
+
+.list {
+ font-family: fantasy;
+ color: cyan;
+ list-style: circle;
+ background-color: crimson;
+ background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Spring_rolls_on_sale.jpg/250px-Spring_rolls_on_sale.jpg");
+}
+
+#camping {
+ border: brown dashed;
+ border-radius: 50%;
+ opacity: 0.5;
+}
+
+#link {
+ border: solid black;
+ margin: 120px;
+}
